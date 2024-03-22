@@ -1,7 +1,5 @@
 def RightTriangle(Size):
 	
-	Pivot = 1
-	
 	for Loop in range(Size - 1):
 		for i in range(Loop + 1):
 			if (i == 0) or (i == Loop):
